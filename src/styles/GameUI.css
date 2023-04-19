@@ -1,0 +1,53 @@
+
+
+.upper-container{
+    display: flex;
+    gap: 10px;
+}
+
+img{
+    width: 50px;
+   
+}
+
+
+.main-container-for-game{
+    display: flex;
+    gap: 64px;
+    width: 90rem;
+    height: 45rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+
+    font-size: 50px;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 800;
+    color: rgb(42, 46, 54);
+}
+
+.game-container{
+  
+    display: grid;
+    width: 40%;
+    height: 60%;
+  grid-template-columns: auto auto auto;
+}
+button{
+    background: none;
+border: 2px solid rgb(112, 111, 82);
+}
+#btn-1 , #btn-2 , #btn-3{
+    border-top: none;
+}
+#btn-1 , #btn-4 , #btn-7{
+    border-left: none;
+}
+#btn-7 , #btn-8 , #btn-9{
+    border-bottom: none;
+}
+#btn-3 , #btn-6 , #btn-9{
+    border-right: none;
+}
